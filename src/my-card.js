@@ -119,7 +119,7 @@ import { LitElement, html, css } from 'lit';
           <a href="${this.link}">LinkedIn</a>
           <p><button>Contact</button></p>
           
-          <!-- Add details/summary for description -->
+          <!-- Add description -->
           <details ?open="${this.fancy}" @toggle="${this.openChanged}">
             <summary>Description</summary>
             <div>
